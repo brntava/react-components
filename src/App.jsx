@@ -5,6 +5,10 @@ import First from './components/basics/First'
 import Props from './components/basics/Props'
 import Family from "./components/basics/Family";
 import FamilyMember from "./components/basics/FamilyMember";
+import ListaAlunos from "./components/loop/ListaAlunos";
+import ListaCompras from "./components/loop/ListaCompras";
+import ParOuImpar from "./components/condicional/ParOuImpar";
+import UserInfo from "./components/condicional/UserInfo";
 import Random from './components/basics/Random'
 import './index.css'
 
@@ -30,12 +34,25 @@ const App = (props) => {
                     <Props title="Situacao do aluno" name="Pedro" nota="8.7" />
                 </Card>
 
-                <Card title='Componentes com Filhos' color="#f00">
+                <Card title='Componentes com Filhos' color="#090">
                     <Family subname="Ferreira">
                         <FamilyMember name="Pedro"/>
                         <FamilyMember name="Marcelo"/>
                         <FamilyMember name="Bruno"  />
                     </Family>
+                </Card>
+
+                <Card title='Lista Alunos' color="#008">
+                    <ListaAlunos></ListaAlunos>
+                </Card>
+
+                <Card title='Lista Compras' color="#f00">
+                    <ListaCompras></ListaCompras>
+                </Card>
+
+                <Card title='Condicional' color="#090">
+                    <ParOuImpar number={22}></ParOuImpar>
+                    <UserInfo user={{name: 'Bruno'}}></UserInfo>
                 </Card>
 
             </div>
