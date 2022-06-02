@@ -4,7 +4,7 @@ const First = () => {
 
     return(
         <div>
-            <p>{msg}</p>     
+            <h3>{msg}</h3>     
         </div>
     );
 }

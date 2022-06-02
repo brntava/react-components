@@ -1,16 +1,7 @@
-import ReactDOM  from "react-dom";
-import React from "react";
-import First from './components/basics/First'
-import Props from './components/basics/Props'
-import './index.css'
-
-const tag = <strong>Ola mundo</strong>
+import ReactDOM from "react-dom";
+import App from "./App";
 
 ReactDOM.render(
-    <div> 
-        {tag}
-        <First />
-        <Props title="Situacao do aluno" name="Pedro" nota="8.7" />
-    </div>,
+    <App />,
     document.getElementById('root')
 )

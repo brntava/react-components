@@ -1,4 +1,10 @@
 body{
     background-color: #222;
     color: #fff;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
 }
