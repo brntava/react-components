@@ -1,3 +1,3 @@
 # React Components
 
-Projeto para teste habilidades com ReactJS
+Projeto para testar habilidades com ReactJS
